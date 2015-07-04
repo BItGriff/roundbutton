@@ -1,0 +1,18 @@
+<resources>
+
+    <declare-styleable name="RoundButton">
+        <attr name="image" format="reference"/>
+        <attr name="bgcolor" format="color"/>
+        <attr name="text" format="string"/>
+        
+        <attr name="radius" format="float"/>
+        
+        <attr name="highlightColor" format="color"/>
+        <attr name="highlightMode" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="image" value="1"/>
+            <enum name="background" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
